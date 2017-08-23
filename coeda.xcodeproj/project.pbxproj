@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584A574F401DEA1389842158 /* Pods_coedaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FAB12B1C4F970FCDFA158 /* Pods_coedaUITests.framework */; };
+		8E9C59F9E03FEB1F24FB1BEB /* Pods_coeda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FC3EAA0F50A99947F5A818 /* Pods_coeda.framework */; };
+		AA1EFC521F4C46A8000972B7 /* ConohaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1EFC511F4C46A8000972B7 /* ConohaService.swift */; };
+		AA1EFC531F4C46A8000972B7 /* ConohaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1EFC511F4C46A8000972B7 /* ConohaService.swift */; };
+		AA1EFC551F4C584C000972B7 /* ConohaIdentityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1EFC541F4C584C000972B7 /* ConohaIdentityService.swift */; };
+		AA1EFC561F4C584C000972B7 /* ConohaIdentityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1EFC541F4C584C000972B7 /* ConohaIdentityService.swift */; };
 		AA98800A1F4BF3EB003A4C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9880091F4BF3EB003A4C3C /* AppDelegate.swift */; };
 		AA98800C1F4BF3EB003A4C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA98800B1F4BF3EB003A4C3C /* ViewController.swift */; };
 		AA98800F1F4BF3EB003A4C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA98800D1F4BF3EB003A4C3C /* Main.storyboard */; };
@@ -14,6 +20,7 @@
 		AA9880141F4BF3EB003A4C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9880121F4BF3EB003A4C3C /* LaunchScreen.storyboard */; };
 		AA98801F1F4BF3EB003A4C3C /* coedaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA98801E1F4BF3EB003A4C3C /* coedaTests.swift */; };
 		AA98802A1F4BF3EB003A4C3C /* coedaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9880291F4BF3EB003A4C3C /* coedaUITests.swift */; };
+		E295B18265322B6700A4397A /* Pods_coedaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157CF8192B54489CEA8F1C8A /* Pods_coedaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0418EBB028BC775C46B620DF /* Pods-coedaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coedaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-coedaTests/Pods-coedaTests.release.xcconfig"; sourceTree = "<group>"; };
+		157CF8192B54489CEA8F1C8A /* Pods_coedaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coedaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CD784ADBDD13933A9FC5FA /* Pods-coeda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coeda.release.xcconfig"; path = "Pods/Target Support Files/Pods-coeda/Pods-coeda.release.xcconfig"; sourceTree = "<group>"; };
+		39FC3F0CE228037F7197145F /* Pods-coedaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coedaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coedaTests/Pods-coedaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		63EE4B34D33E64DD243A6138 /* Pods-coeda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coeda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coeda/Pods-coeda.debug.xcconfig"; sourceTree = "<group>"; };
+		7E64B3B186F5F1158360D2BF /* Pods-coedaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coedaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coedaUITests/Pods-coedaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA1EFC511F4C46A8000972B7 /* ConohaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConohaService.swift; sourceTree = "<group>"; };
+		AA1EFC541F4C584C000972B7 /* ConohaIdentityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConohaIdentityService.swift; sourceTree = "<group>"; };
 		AA9880061F4BF3EB003A4C3C /* coeda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coeda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9880091F4BF3EB003A4C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA98800B1F4BF3EB003A4C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		AA9880251F4BF3EB003A4C3C /* coedaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coedaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9880291F4BF3EB003A4C3C /* coedaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coedaUITests.swift; sourceTree = "<group>"; };
 		AA98802B1F4BF3EB003A4C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5FAB12B1C4F970FCDFA158 /* Pods_coedaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coedaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FC3EAA0F50A99947F5A818 /* Pods_coeda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coeda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE535C3D2BB14C661CFEE8D5 /* Pods-coedaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coedaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-coedaUITests/Pods-coedaUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9C59F9E03FEB1F24FB1BEB /* Pods_coeda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E295B18265322B6700A4397A /* Pods_coedaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				584A574F401DEA1389842158 /* Pods_coedaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FE3D79D867AA2AFACB4D51B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FC3EAA0F50A99947F5A818 /* Pods_coeda.framework */,
+				157CF8192B54489CEA8F1C8A /* Pods_coedaTests.framework */,
+				CA5FAB12B1C4F970FCDFA158 /* Pods_coedaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6D08A4FA5FC72500A339C46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63EE4B34D33E64DD243A6138 /* Pods-coeda.debug.xcconfig */,
+				16CD784ADBDD13933A9FC5FA /* Pods-coeda.release.xcconfig */,
+				39FC3F0CE228037F7197145F /* Pods-coedaTests.debug.xcconfig */,
+				0418EBB028BC775C46B620DF /* Pods-coedaTests.release.xcconfig */,
+				7E64B3B186F5F1158360D2BF /* Pods-coedaUITests.debug.xcconfig */,
+				EE535C3D2BB14C661CFEE8D5 /* Pods-coedaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AA987FFD1F4BF3EB003A4C3C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				AA98801D1F4BF3EB003A4C3C /* coedaTests */,
 				AA9880281F4BF3EB003A4C3C /* coedaUITests */,
 				AA9880071F4BF3EB003A4C3C /* Products */,
+				A6D08A4FA5FC72500A339C46 /* Pods */,
+				4FE3D79D867AA2AFACB4D51B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +149,8 @@
 				AA9880101F4BF3EB003A4C3C /* Assets.xcassets */,
 				AA9880121F4BF3EB003A4C3C /* LaunchScreen.storyboard */,
 				AA9880151F4BF3EB003A4C3C /* Info.plist */,
+				AA1EFC511F4C46A8000972B7 /* ConohaService.swift */,
+				AA1EFC541F4C584C000972B7 /* ConohaIdentityService.swift */,
 			);
 			path = coeda;
 			sourceTree = "<group>";
@@ -132,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA98802E1F4BF3EB003A4C3C /* Build configuration list for PBXNativeTarget "coeda" */;
 			buildPhases = (
+				E7B4602CA8D3E93549708E58 /* [CP] Check Pods Manifest.lock */,
 				AA9880021F4BF3EB003A4C3C /* Sources */,
 				AA9880031F4BF3EB003A4C3C /* Frameworks */,
 				AA9880041F4BF3EB003A4C3C /* Resources */,
+				D8B511285902E49AA2E8892A /* [CP] Embed Pods Frameworks */,
+				E139CFCDBB8835B7608EB79E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA9880311F4BF3EB003A4C3C /* Build configuration list for PBXNativeTarget "coedaTests" */;
 			buildPhases = (
+				182942343BA3802162402DBB /* [CP] Check Pods Manifest.lock */,
 				AA9880161F4BF3EB003A4C3C /* Sources */,
 				AA9880171F4BF3EB003A4C3C /* Frameworks */,
 				AA9880181F4BF3EB003A4C3C /* Resources */,
+				881E08CDA7FA5222CDD987FB /* [CP] Embed Pods Frameworks */,
+				6906C7E8E5913C2791651A6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA9880341F4BF3EB003A4C3C /* Build configuration list for PBXNativeTarget "coedaUITests" */;
 			buildPhases = (
+				D707464758A5D38762364408 /* [CP] Check Pods Manifest.lock */,
 				AA9880211F4BF3EB003A4C3C /* Sources */,
 				AA9880221F4BF3EB003A4C3C /* Frameworks */,
 				AA9880231F4BF3EB003A4C3C /* Resources */,
+				387EC7429962F65502BD6046 /* [CP] Embed Pods Frameworks */,
+				40B565174372A9D554D29720 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +314,177 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		182942343BA3802162402DBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coedaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		387EC7429962F65502BD6046 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coedaUITests/Pods-coedaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40B565174372A9D554D29720 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coedaUITests/Pods-coedaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6906C7E8E5913C2791651A6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coedaTests/Pods-coedaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881E08CDA7FA5222CDD987FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coedaTests/Pods-coedaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D707464758A5D38762364408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coedaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B511285902E49AA2E8892A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-coeda/Pods-coeda-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coeda/Pods-coeda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E139CFCDBB8835B7608EB79E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coeda/Pods-coeda-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B4602CA8D3E93549708E58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coeda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA9880021F4BF3EB003A4C3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AA98800C1F4BF3EB003A4C3C /* ViewController.swift in Sources */,
+				AA1EFC551F4C584C000972B7 /* ConohaIdentityService.swift in Sources */,
 				AA98800A1F4BF3EB003A4C3C /* AppDelegate.swift in Sources */,
+				AA1EFC521F4C46A8000972B7 /* ConohaService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +492,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1EFC561F4C584C000972B7 /* ConohaIdentityService.swift in Sources */,
 				AA98801F1F4BF3EB003A4C3C /* coedaTests.swift in Sources */,
+				AA1EFC531F4C46A8000972B7 /* ConohaService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +638,7 @@
 		};
 		AA98802F1F4BF3EB003A4C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63EE4B34D33E64DD243A6138 /* Pods-coeda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SHN5MXH963;
@@ -428,6 +652,7 @@
 		};
 		AA9880301F4BF3EB003A4C3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16CD784ADBDD13933A9FC5FA /* Pods-coeda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SHN5MXH963;
@@ -441,6 +666,7 @@
 		};
 		AA9880321F4BF3EB003A4C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FC3F0CE228037F7197145F /* Pods-coedaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +682,7 @@
 		};
 		AA9880331F4BF3EB003A4C3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0418EBB028BC775C46B620DF /* Pods-coedaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +698,7 @@
 		};
 		AA9880351F4BF3EB003A4C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E64B3B186F5F1158360D2BF /* Pods-coedaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SHN5MXH963;
@@ -485,6 +713,7 @@
 		};
 		AA9880361F4BF3EB003A4C3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE535C3D2BB14C661CFEE8D5 /* Pods-coedaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SHN5MXH963;
@@ -516,6 +745,7 @@
 				AA9880301F4BF3EB003A4C3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA9880311F4BF3EB003A4C3C /* Build configuration list for PBXNativeTarget "coedaTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +754,7 @@
 				AA9880331F4BF3EB003A4C3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA9880341F4BF3EB003A4C3C /* Build configuration list for PBXNativeTarget "coedaUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +763,7 @@
 				AA9880361F4BF3EB003A4C3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
