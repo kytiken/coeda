@@ -13,13 +13,23 @@
 		AA1EFC531F4C46A8000972B7 /* ConohaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1EFC511F4C46A8000972B7 /* ConohaService.swift */; };
 		AA1EFC551F4C584C000972B7 /* ConohaIdentityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1EFC541F4C584C000972B7 /* ConohaIdentityService.swift */; };
 		AA1EFC561F4C584C000972B7 /* ConohaIdentityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1EFC541F4C584C000972B7 /* ConohaIdentityService.swift */; };
+		AA7CAD9F1F50F38900B1FCC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7CAD9E1F50F38900B1FCC4 /* LoginViewController.swift */; };
+		AA8B12061F4EF1AC00FF712A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B12051F4EF1AC00FF712A /* Token.swift */; };
+		AA8B12071F4EF1AC00FF712A /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B12051F4EF1AC00FF712A /* Token.swift */; };
+		AA8B12091F4EF24E00FF712A /* Tenant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B12081F4EF24E00FF712A /* Tenant.swift */; };
+		AA8B120A1F4EF24E00FF712A /* Tenant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B12081F4EF24E00FF712A /* Tenant.swift */; };
+		AA8B120C1F4EF80F00FF712A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B120B1F4EF80F00FF712A /* User.swift */; };
+		AA8B120D1F4EF80F00FF712A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B120B1F4EF80F00FF712A /* User.swift */; };
+		AA8B12121F4F9FC800FF712A /* ConohaIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B12111F4F9FC800FF712A /* ConohaIdentity.swift */; };
+		AA8B12131F4F9FC800FF712A /* ConohaIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B12111F4F9FC800FF712A /* ConohaIdentity.swift */; };
 		AA98800A1F4BF3EB003A4C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9880091F4BF3EB003A4C3C /* AppDelegate.swift */; };
 		AA98800C1F4BF3EB003A4C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA98800B1F4BF3EB003A4C3C /* ViewController.swift */; };
-		AA98800F1F4BF3EB003A4C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA98800D1F4BF3EB003A4C3C /* Main.storyboard */; };
 		AA9880111F4BF3EB003A4C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9880101F4BF3EB003A4C3C /* Assets.xcassets */; };
 		AA9880141F4BF3EB003A4C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9880121F4BF3EB003A4C3C /* LaunchScreen.storyboard */; };
 		AA98801F1F4BF3EB003A4C3C /* coedaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA98801E1F4BF3EB003A4C3C /* coedaTests.swift */; };
 		AA98802A1F4BF3EB003A4C3C /* coedaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9880291F4BF3EB003A4C3C /* coedaUITests.swift */; };
+		AADB73721F56D59B006E1FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADB73701F56D59B006E1FB3 /* Main.storyboard */; };
+		AADB73741F56E7AC006E1FB3 /* ServersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB73731F56E7AC006E1FB3 /* ServersViewController.swift */; };
 		E295B18265322B6700A4397A /* Pods_coedaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157CF8192B54489CEA8F1C8A /* Pods_coedaTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,10 +59,14 @@
 		7E64B3B186F5F1158360D2BF /* Pods-coedaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coedaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coedaUITests/Pods-coedaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA1EFC511F4C46A8000972B7 /* ConohaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConohaService.swift; sourceTree = "<group>"; };
 		AA1EFC541F4C584C000972B7 /* ConohaIdentityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConohaIdentityService.swift; sourceTree = "<group>"; };
+		AA7CAD9E1F50F38900B1FCC4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AA8B12051F4EF1AC00FF712A /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		AA8B12081F4EF24E00FF712A /* Tenant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tenant.swift; sourceTree = "<group>"; };
+		AA8B120B1F4EF80F00FF712A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AA8B12111F4F9FC800FF712A /* ConohaIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConohaIdentity.swift; sourceTree = "<group>"; };
 		AA9880061F4BF3EB003A4C3C /* coeda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coeda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9880091F4BF3EB003A4C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA98800B1F4BF3EB003A4C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AA98800E1F4BF3EB003A4C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA9880101F4BF3EB003A4C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9880131F4BF3EB003A4C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9880151F4BF3EB003A4C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +76,8 @@
 		AA9880251F4BF3EB003A4C3C /* coedaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coedaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9880291F4BF3EB003A4C3C /* coedaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coedaUITests.swift; sourceTree = "<group>"; };
 		AA98802B1F4BF3EB003A4C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADB73711F56D59B006E1FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AADB73731F56E7AC006E1FB3 /* ServersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServersViewController.swift; sourceTree = "<group>"; };
 		CA5FAB12B1C4F970FCDFA158 /* Pods_coedaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coedaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FC3EAA0F50A99947F5A818 /* Pods_coeda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coeda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE535C3D2BB14C661CFEE8D5 /* Pods-coedaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coedaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-coedaUITests/Pods-coedaUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +134,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AA7CAD991F50646200B1FCC4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				AA8B12111F4F9FC800FF712A /* ConohaIdentity.swift */,
+				AA8B12081F4EF24E00FF712A /* Tenant.swift */,
+				AA8B120B1F4EF80F00FF712A /* User.swift */,
+				AA8B12051F4EF1AC00FF712A /* Token.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 		AA987FFD1F4BF3EB003A4C3C = {
 			isa = PBXGroup;
 			children = (
@@ -143,14 +170,17 @@
 		AA9880081F4BF3EB003A4C3C /* coeda */ = {
 			isa = PBXGroup;
 			children = (
+				AA7CAD991F50646200B1FCC4 /* models */,
 				AA9880091F4BF3EB003A4C3C /* AppDelegate.swift */,
 				AA98800B1F4BF3EB003A4C3C /* ViewController.swift */,
-				AA98800D1F4BF3EB003A4C3C /* Main.storyboard */,
 				AA9880101F4BF3EB003A4C3C /* Assets.xcassets */,
+				AADB73701F56D59B006E1FB3 /* Main.storyboard */,
 				AA9880121F4BF3EB003A4C3C /* LaunchScreen.storyboard */,
 				AA9880151F4BF3EB003A4C3C /* Info.plist */,
 				AA1EFC511F4C46A8000972B7 /* ConohaService.swift */,
 				AA1EFC541F4C584C000972B7 /* ConohaIdentityService.swift */,
+				AA7CAD9E1F50F38900B1FCC4 /* LoginViewController.swift */,
+				AADB73731F56E7AC006E1FB3 /* ServersViewController.swift */,
 			);
 			path = coeda;
 			sourceTree = "<group>";
@@ -292,9 +322,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADB73721F56D59B006E1FB3 /* Main.storyboard in Resources */,
 				AA9880141F4BF3EB003A4C3C /* LaunchScreen.storyboard in Resources */,
 				AA9880111F4BF3EB003A4C3C /* Assets.xcassets in Resources */,
-				AA98800F1F4BF3EB003A4C3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +454,10 @@
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealmDataSources/RxRealmDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -434,7 +467,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealmDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -481,10 +517,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7CAD9F1F50F38900B1FCC4 /* LoginViewController.swift in Sources */,
 				AA98800C1F4BF3EB003A4C3C /* ViewController.swift in Sources */,
+				AA8B12121F4F9FC800FF712A /* ConohaIdentity.swift in Sources */,
+				AADB73741F56E7AC006E1FB3 /* ServersViewController.swift in Sources */,
+				AA8B12061F4EF1AC00FF712A /* Token.swift in Sources */,
 				AA1EFC551F4C584C000972B7 /* ConohaIdentityService.swift in Sources */,
+				AA8B12091F4EF24E00FF712A /* Tenant.swift in Sources */,
 				AA98800A1F4BF3EB003A4C3C /* AppDelegate.swift in Sources */,
 				AA1EFC521F4C46A8000972B7 /* ConohaService.swift in Sources */,
+				AA8B120C1F4EF80F00FF712A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,9 +534,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8B12131F4F9FC800FF712A /* ConohaIdentity.swift in Sources */,
 				AA1EFC561F4C584C000972B7 /* ConohaIdentityService.swift in Sources */,
 				AA98801F1F4BF3EB003A4C3C /* coedaTests.swift in Sources */,
+				AA8B120D1F4EF80F00FF712A /* User.swift in Sources */,
 				AA1EFC531F4C46A8000972B7 /* ConohaService.swift in Sources */,
+				AA8B120A1F4EF24E00FF712A /* Tenant.swift in Sources */,
+				AA8B12071F4EF1AC00FF712A /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,20 +568,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AA98800D1F4BF3EB003A4C3C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA98800E1F4BF3EB003A4C3C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AA9880121F4BF3EB003A4C3C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AA9880131F4BF3EB003A4C3C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AADB73701F56D59B006E1FB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AADB73711F56D59B006E1FB3 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -10,6 +10,9 @@ target 'coeda' do
   pod 'RxCocoa',    '~> 3.0'
   pod 'RealmSwift'
   pod 'Moya/RxSwift'
+  pod 'SwiftyJSON'
+  pod "RxRealm"
+  pod "RxRealmDataSources"
 
 
   target 'coedaTests' do
